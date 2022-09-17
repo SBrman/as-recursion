@@ -1,0 +1,5 @@
+function shortest() {
+	shortest();
+}
+
+shortest();
