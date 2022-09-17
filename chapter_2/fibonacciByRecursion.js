@@ -10,3 +10,4 @@ function fib(n) {
 		return res;
 	}
 }
+document.write(fib(5));
