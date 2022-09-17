@@ -18,7 +18,7 @@ for root, folders, files in os.walk('.'):
                     continue 
             
             with open(path.replace('html', 'js'), 'w') as jsFile:
-                jsFile.write(''.join(code[1:-2]))
+                jsFile.write(''.join(code[1:-1]))
 
             with open(path, 'w') as htmlFile:
                 htmlFile.write(firstLineJs)
