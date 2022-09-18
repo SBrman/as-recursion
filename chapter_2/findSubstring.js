@@ -11,7 +11,6 @@ function findSubstringIterative(substring, string){
 
 function findSubstringRecursive(substring, string, i){
     if (i === undefined) {i = 0;}
-    document.write(i);
     if (i >= string.length){
         return -1;
     }
