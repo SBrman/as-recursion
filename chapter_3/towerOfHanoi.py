@@ -29,7 +29,7 @@ class Tower:
             text += str(disk)
 
         text += '-' * CENTER + '\n'
-        text += ' ' + f" {self.name} ".center(28, ' ') + ' \n'
+        text += ' ' + f" {self.name} ".center(CENTER-2, ' ') + ' \n'
         text += '-' * CENTER + '\n'
 
         return text
@@ -85,7 +85,7 @@ class TowerOfHanoi:
 
 if __name__ == "__main__":
     
-    TOTAL_DISKS = 6
+    TOTAL_DISKS = 5 
     # assert TOTAL_DISKS < 10, "Total disks more than 10 not allowed. (Can't pretty print.)"
     CENTER = TOTAL_DISKS * 5
 
